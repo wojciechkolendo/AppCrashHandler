@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_crash_handler_application">Application</string>
+	<string name="app_crash_handler_close">Close</string>
+	<string name="app_crash_handler_device">Device</string>
+	<string name="app_crash_handler_exception">Exception</string>
+	<string name="app_crash_handler_title" formatted="true">Unfortunately %s has stopped</string>
+	<string name="app_crash_handler_send_report">Send report</string>
+</resources>

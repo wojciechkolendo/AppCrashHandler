@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_crash_handler_application">Aplikacja</string>
+	<string name="app_crash_handler_close">Zamknij</string>
+	<string name="app_crash_handler_device">Urządzenie</string>
+	<string name="app_crash_handler_exception">Wyjątek</string>
+	<string name="app_crash_handler_title" formatted="true">Aplikacja %s została zatrzymana</string>
+	<string name="app_crash_handler_send_report">Wyślij raport</string>
+</resources>

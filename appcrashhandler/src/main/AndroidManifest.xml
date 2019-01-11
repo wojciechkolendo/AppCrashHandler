@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		  package="com.humandevice.android.appcrashhandler">
+
+	<application>
+		<activity
+			android:name=".ExceptionActivity"
+			android:noHistory="true"
+			android:process=":exception_activity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+	</application>
+
+</manifest>
