@@ -5,7 +5,7 @@ def groupId = project.PUBLISH_GROUP_ID
 def artifactId = project.PUBLISH_ARTIFACT_ID
 def version = project.PUBLISH_VERSION
 
-def localReleaseDest = "C:\\Users\\Rafal.HUMANDEVICE\\Desktop\\Maven"
+def localReleaseDest = "C:\\Users\\kolendow\\Desktop\\Maven"
 
 task androidJavadocs(type: Javadoc) {
     failOnError = false
