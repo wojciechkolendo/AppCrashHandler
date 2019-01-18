@@ -1,8 +1,8 @@
-package com.humandevice.android.appcrashhandler.sample;
+package com.wojciechkolendo.appcrashhandler.sample;
 
 import android.app.Application;
 
-import com.humandevice.android.appcrashhandler.AppCrashHandler;
+import com.wojciechkolendo.appcrashhandler.AppCrashHandler;
 
 /**
  * @author Rafal Zajfert

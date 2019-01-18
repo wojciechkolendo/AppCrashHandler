@@ -1,21 +1,21 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 apply plugin: 'maven'
 apply plugin: 'maven-publish'
 
 ext {
 	PUBLISH_GROUP_ID = 'com.wojciechkolendo'
 	PUBLISH_ARTIFACT_ID = 'appcrashhandler'
-	PUBLISH_VERSION = '1.0.0'
+	PUBLISH_VERSION = '1.0.2'
 }
 
 android {
-	compileSdkVersion 28
-
+	compileSdkVersion versions.compileSdk
 	defaultConfig {
-		minSdkVersion 21
-		targetSdkVersion 28
-		versionCode 1
-		versionName "1.0.0"
+		minSdkVersion versions.minSdk
+		targetSdkVersion versions.targetSdk
+		versionCode 3
+		versionName "1.0.2"
 	}
 	buildTypes {
 		release {
@@ -31,6 +31,7 @@ android {
 
 dependencies {
 	implementation fileTree(include: ['*.jar'], dir: 'libs')
+	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}"
 	implementation 'androidx.appcompat:appcompat:1.0.2'
 	implementation 'com.google.android.material:material:1.0.0'
 	implementation 'software.rsquared:android-logger:1.3.3'

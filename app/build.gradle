@@ -1,10 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-
-    compileSdkVersion 28
+    compileSdkVersion versions.compileSdk
     defaultConfig {
-        applicationId "com.humandevice.android.appcrashhandler.sample"
+        applicationId "com.wojciechkolendo.appcrashhandler.sample"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1

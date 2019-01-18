@@ -1,4 +1,4 @@
-package com.humandevice.android.appcrashhandler.sample;
+package com.wojciechkolendo.appcrashhandler.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
