@@ -8,7 +8,7 @@ Shows uncaught exceptions in Alert Dialog
 
 ```Gradle
 dependencies {
-    implementation 'com.wojciechkolendo:appcrashhandler:1.0.0'
+    implementation 'com.wojciechkolendo:appcrashhandler:1.0.1'
 }
 ```
 
